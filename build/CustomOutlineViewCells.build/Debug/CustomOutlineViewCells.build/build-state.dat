@@ -1,0 +1,625 @@
+TCustomOutlineViewCells
+v7
+r0
+t317767833.118666
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist CustomOutlineViewCells-Info.plist
+cCopyStringsFile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+cCompileXIB /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+cProcessPCH /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch.gch CustomOutlineViewCells_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/Group.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineEntry.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCell.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCellController.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells normal x86_64
+cTouch /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B73FBEF000000000000043A
+t1265892335
+s1082
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+c000000004D3E28060000000000001524
+t1295919110
+s5412
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.h
+c000000004D3E25CF0000000000000332
+t1295918543
+s818
+i<Cocoa/Cocoa.h>
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m
+c000000004D3E25CF0000000000001E68
+t1295918543
+s7784
+i"CustomOutlineViewCells_AppDelegate.h"
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+c000000004D3E2D2E0000000000000088
+t1295920430
+s136
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_Prefix.pch
+c000000004D3E25CF00000000000000AF
+t1295918543
+s175
+i<Cocoa/Cocoa.h>
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/InfoPlist.strings
+c000000004D3E25CF000000000000005A
+t1295918543
+s90
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+c000000004D3E2DDE0000000000029AE3
+t1295920606
+s170723
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.h
+c000000004D3E2D720000000000000122
+t1295920498
+s290
+i<Cocoa/Cocoa.h>
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m
+c000000004D3E2D7700000000000000EA
+t1295920503
+s234
+i"OutlineDelegate.h"
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells.LinkFileList
+c000000004D3E2D2E0000000000000221
+t1295920430
+s545
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o
+t1295920433
+s42440
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o
+t1295926803
+s16276
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o
+t1295920433
+s5048
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+t1295926803
+s102
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist
+t1295920430
+s931
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells
+t1295926803
+s23400
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/PkgInfo
+t1295920430
+s8
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells.nib
+t1295920431
+s1363
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom
+t1295920433
+s4044
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1295920431
+s90
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/MainMenu.nib
+t1295926801
+s33926
+
+N/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/main.m
+c000000004D3E25CF0000000000000111
+t1295918543
+s273
+i<Cocoa/Cocoa.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.h
+c000000004D4082BD0000000000000634
+t1296073405
+s1588
+i<Cocoa/Cocoa.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m
+c000000004D3F64730000000000000BE8
+t1296000115
+s3048
+i"CustomCell.h"
+i"CustomCellController.h"
+i"OutlineEntry.h"
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.h
+c000000004D4082BD00000000000006F6
+t1296073405
+s1782
+i<Cocoa/Cocoa.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m
+c000000004D406E8E0000000000000956
+t1296068238
+s2390
+i"CustomCellController.h"
+i"OutlineEntry.h"
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+c000000004D3F6603000000000000BD64
+t1296000515
+s48484
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.h
+c000000004D3F22440000000000000351
+t1295983172
+s849
+i<Cocoa/Cocoa.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m
+c000000004D40697100000000000022DE
+t1296066929
+s8926
+i"CustomOutlineViewCells_AppDelegate.h"
+i"OutlineEntry.h"
+i"CustomCell.h"
+i"CustomCellController.h"
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+c000000004D406ADD0000000000000088
+t1296067293
+s136
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_Prefix.pch
+c000000004D3E25CF00000000000000AF
+t1295918543
+s175
+i<Cocoa/Cocoa.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.h
+c000000004D3F29EA0000000000000121
+t1295985130
+s289
+i<CoreData/CoreData.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m
+c000000004D3F29EA00000000000000E0
+t1295985130
+s224
+i"Group.h"
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.h
+c000000004D3F29EA0000000000000314
+t1295985130
+s788
+i<CoreData/CoreData.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m
+c000000004D406A310000000000000266
+t1296067121
+s614
+i"OutlineEntry.h"
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/InfoPlist.strings
+c000000004D3E25CF000000000000005A
+t1295918543
+s90
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+c000000004D406BBB000000000002A0D0
+t1296067515
+s172240
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.h
+c000000004D3F412900000000000001A1
+t1295991081
+s417
+i<Cocoa/Cocoa.h>
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m
+c000000004D4089170000000000000ECD
+t1296075031
+s3789
+i"OutlineDelegate.h"
+i"Group.h"
+i"OutlineEntry.h"
+i"CustomCell.h"
+i"CustomCellController.h"
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCell.o
+t1296073408
+s28148
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCellController.o
+t1296073408
+s27756
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells.LinkFileList
+c000000004D3F390400000000000004C4
+t1295988996
+s1220
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o
+t1296073408
+s48156
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/Group.o
+t1295989009
+s5720
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o
+t1296075032
+s54012
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineEntry.o
+t1296067293
+s11888
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o
+t1295989009
+s5040
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+t1296075033
+s102
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist
+t1295988996
+s931
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells
+t1296075033
+s49888
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/PkgInfo
+t1295988996
+s8
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells.nib
+t1296000519
+s8102
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom
+t1296067293
+s4048
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1295988997
+s90
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/MainMenu.nib
+t1296073407
+s37479
+
+N/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m
+c000000004D3E25CF0000000000000111
+t1295918543
+s273
+i<Cocoa/Cocoa.h>
+
+N/var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch.gch
+t1295920433
+s54306576
+
+N/var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch.gch
+t1295989008
+s54306576
+
+NCustomOutlineViewCells-Info.plist
+c000000004D3E25CF00000000000003F3
+t1295918543
+s1011
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317767831#317767831#0(0"0(0#1#0"8691271776#0"0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCell.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317766207.649870
+e317766208.959822
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCell.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m317766207#317766208#0(0"0(0#0#77"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m8676057664#1471"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCell.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCell.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCellController.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317766207.650527
+e317766208.960172
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCellController.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m317766207#317766208#0(0"0(0#0#87"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m8674230336#1491"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomCellController.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomCellController.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317613233.218994
+e317613233.345807
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m317613233#317613233#0(0"0(0#0#105"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m8674403296#1551"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch -c /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m -o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317766207.648352
+e317766208.960022
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m317766207#317766208#0(0"0(0#0#101"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m8696268608#1519"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_AppDelegate.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells_AppDelegate.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/Group.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317681808.825882
+e317681809.926059
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/Group.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m317681808#317681809#0(0"0(0#0#77"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m8673120000#1466"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/Group.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/Group.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317619601.452964
+e317619603.043055
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m317619601#317619603#0(0"0(0#0#86"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m8634387232#1513"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch -c /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m -o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317767831.772728
+e317767832.769281
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m: In function '-[TDSOutlineDelegate outlineView:child:ofItem:]':
+o/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: 'NSSet' may not respond to '-objectAtIndex:'
+o/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: (Messages without a matching method signature
+o/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: will be assumed to return 'id' and accept
+o/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: '...' as arguments.)
+lSLF07#2@90"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m317767831#317767832#0(689"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m: In function '-[TDSOutlineDelegate outlineView:child:ofItem:]':/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: 'NSSet' may not respond to '-objectAtIndex:'/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: (Messages without a matching method signature/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: will be assumed to return 'id' and accept/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m:124: warning: '...' as arguments.)2(22@44"'NSSet' may not respond to '-objectAtIndex:'317767832#147#142#0(6@82"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m317767831#124#0#124#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317767832#289#143#0(6@82"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m317767831#124#0#124#0#0"0(0#0#82"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m8676210272#1481"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/OutlineDelegate.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineDelegate.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineEntry.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317760093.696804
+e317760093.974748
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineEntry.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m317760093#317760093#0(0"0(0#0#84"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m8648075328#1480"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/Data/OutlineEntry.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/OutlineEntry.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317613233.218336
+e317613233.316294
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/main.m317613233#317613233#0(0"0(0#0#75"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/main.m8652425120#1491"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch -c /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/main.m -o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317681808.823920
+e317681809.927598
+r1
+xCompileC
+xbuild/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m317681808#317681809#0(0"0(0#0#71"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m8693948544#1459"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -include /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/main.m -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+s317613230.996270
+e317613231.148116
+r1
+xCompileXIB
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+lSLF07#2@37"CompileXIB CustomOutlineViewCells.xib317613230#317613231#0(0"0(0#0#95"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib8637968288#469"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells.nib /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+s317619600.684236
+e317619601.452375
+r1
+xCompileXIB
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317619600#317619601#0(0"0(0#0#95"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib8646691744#469"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/MainMenu.nib /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+s317693319.637403
+e317693319.825023
+r1
+xCompileXIB
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib
+lSLF07#2@37"CompileXIB CustomOutlineViewCells.xib317693319#317693319#0(0"0(0#0#91"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib8663838880#457"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells.nib /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+s317766206.266499
+e317766207.647957
+r1
+xCompileXIB
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317766206#317766207#0(0"0(0#0#91"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib8676302144#457"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/MainMenu.nib /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317613230.995073
+e317613231.021431
+r1
+xCopyStringsFile
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317613230#317613231#0(0"0(0#0#100"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/English.lproj/InfoPlist.strings8638482848#441"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317681796.432703
+e317681797.529535
+r1
+xCopyStringsFile
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317681796#317681797#0(0"0(0#0#96"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/English.lproj/InfoPlist.strings8676133376#433"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/English.lproj0#
+
+CDataModelCompile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+s317613233.217742
+e317613233.323630
+r1
+xDataModelCompile
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+lSLF07#2@121"Compile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel317613233#317613233#0(0"0(0#0#113"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel8634022336#411"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom0#
+
+CDataModelCompile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+s317760093.695020
+e317760093.856371
+r1
+xDataModelCompile
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel
+lSLF07#2@117"Compile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel317760093#317760093#0(0"0(0#0#109"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel8652137312#399"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_DataModel.xcdatamodel /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Resources/CustomOutlineViewCells_DataModel.mom0#
+
+CLd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells normal x86_64
+s317619603.043238
+e317619603.659020
+r1
+xLd
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells
+xnormal
+xx86_64
+lSLF07#2@150"Link /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells317619603#317619603#0(0"0(0#0#0"8638256640#767"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug -F/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug -filelist /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells0#
+
+CLd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells normal x86_64
+s317767832.769353
+e317767833.100175
+r1
+xLd
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells
+xnormal
+xx86_64
+lSLF07#2@146"Link /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells317767832#317767833#0(0"0(0#0#0"8695420704#747"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -filelist /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/Objects-normal/x86_64/CustomOutlineViewCells.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/MacOS/CustomOutlineViewCells0#
+
+CProcessInfoPlistFile /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist CustomOutlineViewCells-Info.plist
+s317613230.991813
+e317613230.994988
+r1
+xProcessInfoPlistFile
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist
+xCustomOutlineViewCells-Info.plist
+lSLF07#2@41"Process CustomOutlineViewCells-Info.plist317613230#317613230#0(0"0(0#0#102"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells-Info.plist8639900832#445"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    builtin-infoPlistUtility CustomOutlineViewCells-Info.plist -genpkginfo /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist CustomOutlineViewCells-Info.plist
+s317681796.429662
+e317681796.432641
+r1
+xProcessInfoPlistFile
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist
+xCustomOutlineViewCells-Info.plist
+lSLF07#2@41"Process CustomOutlineViewCells-Info.plist317681796#317681796#0(0"0(0#0#98"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells-Info.plist8676803776#433"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    builtin-infoPlistUtility CustomOutlineViewCells-Info.plist -genpkginfo /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch.gch CustomOutlineViewCells_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317613231.272871
+e317613233.217633
+r1
+xProcessPCH
+x/var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch.gch
+xCustomOutlineViewCells_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Precompile CustomOutlineViewCells_Prefix.pch317613231#317613233#0(0"0(0#0#102"/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_Prefix.pch8674084832#1352"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -c /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_Prefix.pch -o /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-bqmnwgkbdulsqjdawxmtzzoldtqc/CustomOutlineViewCells_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch.gch CustomOutlineViewCells_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317681798.445773
+e317681808.823145
+r1
+xProcessPCH
+x/var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch.gch
+xCustomOutlineViewCells_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Precompile CustomOutlineViewCells_Prefix.pch317681798#317681808#0(0"0(0#0#98"/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_Prefix.pch8645809504#1324"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/CustomOutlineViewCells.hmap -F/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/include -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources/x86_64 -I/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/CustomOutlineViewCells.build/Debug/CustomOutlineViewCells.build/DerivedSources -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/CustomOutlineViewCells_Prefix.pch -o /var/folders/f0/f04Tt-I9Fk0+TwEtgJbowE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CustomOutlineViewCells_Prefix-fhchwzbqiefpqdbvaknyqltxqvrj/CustomOutlineViewCells_Prefix.pch.gch0#
+
+CTouch /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+s317619603.659088
+e317619603.661084
+r1
+xTouch
+x/Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+lSLF07#2@113"Touch /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app317619603#317619603#0(0"0(0#0#0"8632235040#206"    cd /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells    /usr/bin/touch -c /Users/mikestew/Documents/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app0#
+
+CTouch /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+s317767833.100247
+e317767833.118641
+r1
+xTouch
+x/Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app
+lSLF07#2@109"Touch /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app317767833#317767833#0(0"0(0#0#0"8647720000#198"    cd /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells    /usr/bin/touch -c /Volumes/mike_stewart/DevelopmentProjects/CustomOutlineViewCells/build/Debug/CustomOutlineViewCells.app0#
+

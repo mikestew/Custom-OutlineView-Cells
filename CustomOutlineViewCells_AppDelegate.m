@@ -18,21 +18,13 @@
 - (void) applicationDidFinishLaunching:(NSNotification *)notification {
 	// Set up some dummy data to display parent/child
 	// Production app would not need this.
-	OutlineEntry *parentItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
-								inManagedObjectContext:managedObjectContext];
-	[parentItem setTitle:@"Parent Item"];
-	[parentItem setNotes:@"I'm a parent item that should have a child item."];
-	[parentItem setCreationDate:[NSDate date]];
-	
-	OutlineEntry *childItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
-								inManagedObjectContext:managedObjectContext];
-	[childItem setTitle:@"Child Item"];
-	[childItem setNotes:@"I'm a child, or sub, item that should have a parent item."];
-	[childItem setCreationDate:[NSDate date]];
-	[childItem setParent:parentItem];
-	
-	[parentItem release];
-	[childItem release];
+	NSError *error = nil;
+	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+	[fetchRequest setEntity:[NSEntityDescription entityForName:@"OutlineEntry" inManagedObjectContext:[self managedObjectContext]]];
+	NSArray *results = [[self managedObjectContext] executeFetchRequest:fetchRequest error:&error];
+	if ([results count] == 0) {
+		[self createSampleData];
+	}
 }
 
 - (void) addOutlineItem:sender {
@@ -236,5 +228,82 @@
     [super dealloc];
 }
 
+- (void) createSampleData {
+
+	OutlineEntry *parentItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+	[parentItem setTitle:@"Characters"];
+	[parentItem setNotes:@"The crew-members of the Pequod are carefully drawn stylizations of human types and habits; critics have often described the crew as a 'self-enclosed universe'."];
+	[parentItem setCreationDate:[NSDate date]];
+	
+	OutlineEntry *childItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+	[childItem setTitle:@"Ishmael"];
+	[childItem setNotes:@"The name has come to symbolize orphans, exiles, and social outcasts — in the opening paragraph of Moby-Dick, Ishmael tells the reader that he has turned to the sea out of a feeling of alienation from human society. In the last line of the book, Ishmael also refers to himself symbolically as an orphan. Maintaining the Biblical connection and emphasising the representation of outcasts, Ishmael is also the son of Abraham and the slave girl Hagar, before Isaac is born. In Genesis 21:10 Abraham's wife, Sarah, has Hagar and Ishmael exiled into the desert. Ishmael has a rich literary background (he has previously been a schoolteacher), which he brings to bear on his shipmates and events that occur while at sea."];
+	[childItem setCreationDate:[NSDate date]];
+	[childItem setParent:parentItem];
+	[childItem release];
+
+	childItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+	[childItem setTitle:@"Elijah"];
+	[childItem setNotes:@"The character Elijah (named for the Biblical prophet, Elijah, who is also referred to in the King James Bible as Elias), on learning that Ishmael and Queequeg have signed onto Ahab's ship, asks, 'Anything down there about your souls?'"];
+	[childItem setCreationDate:[NSDate date]];
+	[childItem setParent:parentItem];
+	[childItem release];
+
+	childItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+	[childItem setTitle:@"Ahab"];
+	[childItem setNotes:@"Ahab is the tyrannical captain of the Pequod who is driven by a monomaniacal desire to kill Moby Dick, the whale that maimed him on the previous whaling voyage. Despite the fact that he's a Quaker, he seeks revenge in defiance of his religion's well-known pacifism. Ahab's name comes directly from the Bible (see 1 Kings 16:28)."];
+	[childItem setCreationDate:[NSDate date]];
+	[childItem setParent:parentItem];
+	[childItem release];
+
+	childItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+	[childItem setTitle:@"Moby Dick"];
+	[childItem setNotes:@"He is a giant, albino sperm whale and the main antagonist of the novel. He had bitten off Ahab's leg, and Ahab swore revenge. The cetacean also attacked the Rachel and killed the captain's son. Although the novel is named for him, he only appears at the end of it and kills the entire crew with the exception of Ishmael. Unlike the other characters, the reader does not have access to Moby Dick's thoughts and motivations, but the whale is still an integral part of the novel. Moby Dick is sometimes considered to be a symbol of a number of things, among them God, nature, fate, the ocean, and the very universe itself."];
+	[childItem setCreationDate:[NSDate date]];
+	[childItem setParent:parentItem];
+	[childItem release];
+
+
+	childItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+
+	[childItem setTitle:@"Mates"];
+	[childItem setNotes:@"The three mates of the Pequod are all from New England."];
+	[childItem setCreationDate:[NSDate date]];
+	[childItem setParent:parentItem];
+	
+	OutlineEntry *grandChildItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+
+	[grandChildItem setTitle:@"Starbuck"];
+	[grandChildItem setNotes:@"Starbuck is alone among the crew in objecting to Ahab's quest, declaring it madness to want revenge on an animal, which lacks reason. Starbuck advocates continuing the more mundane pursuit of whales for their oil. But he lacks the support of the crew in his opposition to Ahab, and is unable to persuade them to turn back. Despite his misgivings, he feels himself bound by his obligations to obey the captain."];
+	[grandChildItem setCreationDate:[NSDate date]];
+	[grandChildItem setParent:childItem];
+
+	grandChildItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+
+	[grandChildItem setTitle:@"Stubb"];
+	[grandChildItem setNotes:@"Stubb, the second mate of the Pequod, is from Cape Cod, and always seems to have a pipe in his mouth and a smile on his face."];
+	[grandChildItem setCreationDate:[NSDate date]];
+	[grandChildItem setParent:childItem];
+	[childItem release];
+	[grandChildItem release];
+
+
+	parentItem = [NSEntityDescription insertNewObjectForEntityForName:@"OutlineEntry" 
+								inManagedObjectContext:managedObjectContext];
+	[parentItem setTitle:@"Themes"];
+	[parentItem setNotes:@"Moby-Dick is a symbolic work, but also includes chapters on natural history. Major themes include obsession, religion, idealism, courage versus pragmatism, revenge, racism, sanity, hierarchical relationships, and politics. All of the members of the crew↓ have biblical-sounding, improbable, or descriptive names, and the narrator deliberately avoids specifying the exact time of the events (such as the giant whale disappearing into the dark abyss of the ocean) and some other similar details. These together suggest that the narrator — and not just Melville — is deliberately casting his tale in an epic and allegorical mode."];
+	[parentItem setCreationDate:[NSDate date]];
+
+	[parentItem release];
+	[childItem release];
+}
 
 @end

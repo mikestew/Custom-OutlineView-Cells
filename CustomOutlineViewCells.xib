@@ -125,7 +125,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSTextField" id="922088949">
 						<reference key="NSNextResponder" ref="434873702"/>
-						<int key="NSvFlags">268</int>
+						<int key="NSvFlags">265</int>
 						<string key="NSFrame">{{455, 72}, {67, 17}}</string>
 						<reference key="NSSuperview" ref="434873702"/>
 						<bool key="NSEnabled">YES</bool>
@@ -145,7 +145,7 @@
 					</object>
 					<object class="NSDatePicker" id="189506220">
 						<reference key="NSNextResponder" ref="434873702"/>
-						<int key="NSvFlags">268</int>
+						<int key="NSvFlags">265</int>
 						<string key="NSFrame">{{515, 69}, {104, 27}}</string>
 						<reference key="NSSuperview" ref="434873702"/>
 						<bool key="NSEnabled">YES</bool>
@@ -262,7 +262,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA</b
 				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
-			<object class="NSUserDefaultsController" id="611659444">
+			<object class="NSUserDefaultsController" id="260809169">
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</object>
@@ -478,7 +478,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA</b
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">18</int>
-						<reference key="object" ref="611659444"/>
+						<reference key="object" ref="260809169"/>
 						<reference key="parent" ref="0"/>
 					</object>
 				</object>
@@ -566,13 +566,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA</b
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>detailTitle</string>
 							<string>detailView</string>
-							<string>groupTitle</string>
-							<string>groupView</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>NSTextField</string>
-							<string>NSView</string>
 							<string>NSTextField</string>
 							<string>NSView</string>
 						</object>
@@ -583,8 +579,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA</b
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>detailTitle</string>
 							<string>detailView</string>
-							<string>groupTitle</string>
-							<string>groupView</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -594,14 +588,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA</b
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">detailView</string>
-								<string key="candidateClassName">NSView</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">groupTitle</string>
-								<string key="candidateClassName">NSTextField</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">groupView</string>
 								<string key="candidateClassName">NSView</string>
 							</object>
 						</object>
